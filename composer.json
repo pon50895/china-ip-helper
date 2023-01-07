@@ -1,0 +1,17 @@
+{
+  "name": "roypeng/china-ip-helper",
+  "description": "A PHP China ip helper, it can distinguish china ips from ips",
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "phpunit/php-code-coverage": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChinaIpHelper\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
